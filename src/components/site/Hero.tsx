@@ -135,7 +135,7 @@ export function Hero() {
                 className="sweep-btn inline-flex items-center justify-center gap-2 border border-primary bg-primary/10 px-5 py-3 font-display text-[0.65rem] sm:text-xs tracking-[0.14em] text-primary uppercase transition-colors hover:text-primary-foreground"
               >
                 <BookOpen size={14} strokeWidth={1.5} />
-                View Publications (90+)
+                View Publications (91)
               </a>
               <a
                 href="#patents"

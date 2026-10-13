@@ -1,0 +1,61 @@
+# ─── Netlify Deployment Configuration ─────────────────────────────────────────
+# Dr. Sekar Tamilperuvalathan Portfolio
+# Framework: TanStack Start (SSR) + Vite + Nitro
+# ───────────────────────────────────────────────────────────────────────────────
+
+[build]
+  # Nitro outputs:
+  #   Client assets  → dist/
+  #   SSR function   → .netlify/functions-internal/
+  command = "npm run build"
+  publish = "dist"
+  functions = ".netlify/functions-internal"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NODE_ENV = "production"
+  # Suppress noisy nitro/rollup deprecation warnings during CI build
+  NO_WARNINGS = "1"
+
+# ─── Functions ─────────────────────────────────────────────────────────────────
+[functions]
+  # Use esbuild for faster, smaller function bundles
+  node_bundler = "esbuild"
+
+# ─── Headers ───────────────────────────────────────────────────────────────────
+
+# Hashed static assets (JS/CSS chunks) — cache forever, immutable
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Fonts from public/
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Favicon — cache for a day
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# HTML and all other responses — security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# ─── Redirects ─────────────────────────────────────────────────────────────────
+# SSR catch-all: Netlify serves real static files in dist/ first (force=false),
+# then falls through to the Nitro SSR function for all non-matched paths (HTML/dynamic).
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+  force = false
