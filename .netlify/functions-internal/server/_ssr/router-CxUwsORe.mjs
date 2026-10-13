@@ -1,10 +1,10 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { c as require_jsx_runtime, l as require_react } from "../_libs/@react-three/fiber+[...].mjs";
-import { _ as useRouter, c as HeadContent, d as Outlet, f as lazyRouteComponent, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
+import { _ as lazyRouteComponent, b as Link, f as Scripts, g as Outlet, h as createRouter, p as HeadContent, v as createFileRoute, x as useRouter, y as createRootRouteWithContext } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Dpv8drGy.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-CxUwsORe.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-Dj25eUTl.css";
@@ -164,7 +164,7 @@ function RootComponent() {
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster$1, { position: "bottom-right" })]
 	});
 }
-var $$splitComponentImporter = () => import("./routes-BeJ9wz8-.mjs");
+var $$splitComponentImporter = () => import("./routes-DQINqRiD.mjs");
 var title = "Dr. Sekar Tamilperuvalathan — Associate Professor & Head, P.G-Manufacturing Engg & Engg Design, GCT Coimbatore";
 var description = "Portfolio of Dr. Sekar Tamilperuvalathan, Associate Professor and Head, P.G-Manufacturing Engg & Engg Design at Government College of Technology, Coimbatore — 27+ years in engineering education, research and innovation.";
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({

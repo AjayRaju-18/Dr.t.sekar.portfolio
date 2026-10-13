@@ -167,6 +167,10 @@ var FastURL = /* @__PURE__ */ (() => {
 			}
 			return this.#protocol;
 		}
+		get hash() {
+			if (this.#url) return this.#url.hash;
+			return "";
+		}
 		toString() {
 			return this.href;
 		}

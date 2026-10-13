@@ -12,9 +12,9 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // Explicitly target Netlify so the Nitro SSR bundle is always output
-  // to .netlify/functions-internal/ regardless of CI environment.
+  // Target Netlify by default so the Nitro SSR bundle is output to
+  // .netlify/functions-internal/; use the Vercel preset when building on Vercel.
   nitro: {
-    preset: "netlify",
+    preset: process.env.VERCEL ? "vercel" : "netlify",
   },
 });

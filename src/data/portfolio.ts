@@ -5,7 +5,7 @@ export const profile = {
     "Associate Professor and Head, P.G-Manufacturing Engg & Engg Design, Department of Mechanical Engineering",
   institution: "Government College of Technology (GCT), Coimbatore, Tamil Nadu, India",
   tagline: "27+ Years in Engineering Education, Research & Innovation",
-  experienceYears: "27 Years 9 Months",
+  experienceYears: "27 Years 11 Months",
   experienceDetail:
     "Under Tamil Nadu Educational Services, Government of Tamil Nadu (Since 2001)",
   emails: ["drtsekar76@gct.ac.in", "tsekargct@gmail.com"],
@@ -25,13 +25,12 @@ export const profile = {
     dob: "12.07.1975",
     nativePlace: "Tittagudi (606106) & Cuddalore, Tamil Nadu, India",
     schooling: "Government Higher Secondary School, Tittagudi",
-    passport: "Valid Indian Passport Holder (Until 2028)",
   },
 };
 
 export const stats = [
-  { value: 27, suffix: "+", label: "Years Experience (27y 9m)" },
-  { value: 90, suffix: "", label: "International Journals" },
+  { value: 27, suffix: "+", label: "Years Experience (27y 11m)" },
+  { value: 91, suffix: "", label: "International Journals" },
   { value: 100, suffix: "", label: "Intl. Conferences" },
   { value: 10, suffix: "", label: "Design Patents Granted" },
   { value: 75, suffix: "", label: "UG / PG Projects Guided" },
@@ -39,7 +38,7 @@ export const stats = [
 ];
 
 export const summaryCounts = {
-  internationalJournals: 90,
+  internationalJournals: 91,
   nationalJournals: 2,
   internationalConferences: 100,
   nationalConferences: 40,
@@ -49,7 +48,8 @@ export const summaryCounts = {
   phdGuided: 6,
   phdGuiding: 5,
   designPatentsGranted: 10,
-  utilityPatentsFiled: 2,
+  utilityPatentsFiled: 1,
+  designCertificatesFiled: 6,
 };
 
 export const education = [
@@ -101,9 +101,9 @@ export const experience = [
   {
     role: "Officer-in-charge of Examinations",
     org: "Government College of Technology (GCT), Coimbatore",
-    period: "April 2024 – Present",
+    period: "April 2024 – 06.10.2026",
     details:
-      "Directing comprehensive examination management, evaluation integrity, confidential operations, and student assessment governance across autonomous programs.",
+      "Directed comprehensive examination management, evaluation integrity, confidential operations, and student assessment governance across autonomous programs.",
   },
   {
     role: "Head, P.G. – Manufacturing Engg & Engg Design",
@@ -221,15 +221,6 @@ export const patents = {
       filingDate: "2024-12-28",
       status: "Filed / Under Examination",
     },
-    {
-      title:
-        "Inclined, Spiral Electrolyte Jets in a Rotating Tool Improve Electrochemical Machining Performance",
-      role: "T. Sekar (Principal Investigator)",
-      applicationNo: "1049/CHE/2007 A",
-      filingDate: "2007-05-18",
-      publicationDate: "2008-12-05",
-      status: "Published",
-    },
   ],
 };
 
@@ -312,86 +303,97 @@ export const nationalJournals = [
 export const allInternationalJournals = [
   {
     id: 1,
+    authors: "Chinnadurai R, Sekar T, Prasanth P and Vijay M",
+    year: "2026",
+    title:
+      "Performance Prediction and Multi-Response Optimization of Si3N4-ZrO2 Composites by ECDM Using Hybrid ANN-BWKA and ALMO model",
+    journal: "Surface Review and Letters, World Scientific Publications (Q4, IF: 1.1)",
+    doi: "https://doi.org/10.1142/S0218625X26500708",
+    tags: ["ECDM", "Optimization", "Ceramics"],
+    featured: true,
+  },
+  {
+    id: 2,
     authors: "Daniel Antony Arokiyasamy and Sekar Tamilperuvalathan",
     year: "2026",
     title:
       "Next-Generation PLA Based Composites: Structure–Property Application Correlation with Sustainable Reinforcement Systems",
-    journal: "Polymer Science Series C, Springer Publications",
+    journal: "Polymer Science Series C, Springer Publications (Q4, IF: 1.1)",
     doi: "https://doi.org/10.1134/S1811238225600235",
     tags: ["Bio-Composites", "PLA", "Additive Manufacturing"],
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     authors: "Daniel Antony Arockiyasamy and Sekar Tamilperuvalathan",
     year: "2026",
     title:
       "A comprehensive evaluation of material properties, degradation kinetics and clinical performance of biodegradable polymer cardiovascular stents: A review",
-    journal: "International Journal of Biological Macromolecules, Elsevier (Q1, IF: 8.5)",
+    journal: "International Journal of Biological Macromolecules, Elsevier (Q1, IF: 8.7)",
     doi: "https://doi.org/10.1016/j.ijbiomac.2026.150358",
     tags: ["Biomedical", "Bio-Composites", "Cardiovascular Stents"],
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     authors:
       "Sekar Tamilperuvalathan, Vinoth Varadharaju, Sakthivel Rajamohan, Dhinesh Balasubramanian, Utku Kale & Artūras Kilikevičius",
     year: "2026",
     title:
       "Performance enhancement of electrochemical discharge micromachining of borosilicate glass using nitrogen gas assistance",
-    journal: "Scientific Reports, Springer Nature, 16, 18700",
+    journal: "Scientific Reports, Springer Nature, 16, 18700 (Q1, IF: 4.9)",
     doi: "https://doi.org/10.1038/s41598-026-57797-4",
     tags: ["ECDM", "Micro-Machining", "Nitrogen Gas"],
     featured: true,
   },
   {
-    id: 4,
+    id: 5,
     authors: "Daniel Antony Arockiyasamy and Sekar Tamilperuvalathan",
     year: "2025",
     title:
       "Bio-functional Evaluation of FDM 3D Printed Poly(lactic acid) /Ormocarpum Cochinchinense Bio-Composites for Mechanical Performance, Microbial Inhibition and Wound Healing Efficiency",
-    journal: "International Journal of Biological Macromolecules, Elsevier (Q1, IF: 8.5)",
+    journal: "International Journal of Biological Macromolecules, Elsevier (Q1, IF: 8.7)",
     doi: "https://www.sciencedirect.com/science/article/abs/pii/S0141813025105540",
     tags: ["3D Printing", "Bio-Composites", "Biomedical"],
     featured: true,
   },
   {
-    id: 5,
+    id: 6,
     authors:
       "Sekar Tamilperuvalathan, Vinoth Varadharaju, Vijay Manoharan, Sakthivel Rajamohan, Dhinesh Balasubramanian, Utku Kale, Artūras Kilikevičius and Vilma Locaitienė",
     year: "2025",
     title:
       "Enhancing electrochemical discharge drilling performance in mild steel sheet using KMnO4 mixed electrolytes",
-    journal: "Scientific Reports, Springer Nature, 15, Article No. 39703 (Q1, IF: 4.3)",
+    journal: "Scientific Reports, Springer Nature, 15, Article No. 39703 (Q1, IF: 4.9)",
     doi: "https://doi.org/10.1038/s41598-025-23399-93",
     tags: ["ECDM", "Electrolytes", "Machining"],
     featured: true,
   },
   {
-    id: 6,
+    id: 7,
     authors:
       "Venkatesh Chenrayan, Panneerselvam Natarajan, Sekar Tamilperuvalathan, Kiran Shahapurkar and HC Ananda Murthy",
     year: "2025",
     title:
       "Enhancing flexural performance of friction-stir-processed composites via SiC and Y2O3 reinforcements: a combined experimental and numerical study",
-    journal: "Emergent Materials, Springer Publications (Q2, IF: 3.8)",
+    journal: "Emergent Materials, Springer Publications (Q2, IF: 4.0)",
     doi: "https://doi.org/10.1007/s42247-024-00650-z",
     tags: ["Composites", "Friction Stir", "Materials"],
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     authors: "Sekar Tamilperuvalathan and Daniel Antony Arockiyasamy",
     year: "2025",
     title:
       "Polylactic acid/Ormocarpum cochinchinense bio-composites for sustainable 3D-printed biomedical devices",
-    journal: "3 Biotech, Springer, 15, 373 (Q1, IF: 2.9)",
+    journal: "3 Biotech, Springer, 15, 373 (Q1, IF: 3.1)",
     doi: "https://doi.org/10.1007/s13205-025-04550-9",
     tags: ["3D Printing", "Bio-Composites", "Biomedical"],
     featured: true,
   },
   {
-    id: 8,
+    id: 9,
     authors: "Panneerselvam Natarajan, Sekar T, Venkatesh Chenrayan and L. Rajeshkumar",
     year: "2025",
     title:
@@ -402,7 +404,7 @@ export const allInternationalJournals = [
     featured: false,
   },
   {
-    id: 9,
+    id: 10,
     authors: "T.Sekar, U.R.Nivetha, R.Jayashree, R.Surendran, and A.Daniel Antony",
     year: "2025",
     title:
@@ -411,7 +413,7 @@ export const allInternationalJournals = [
     tags: ["PLA", "Orthopedic", "Bio-Composites"],
   },
   {
-    id: 10,
+    id: 11,
     authors: "T.Sekar, A.Hariprabu, R.Surendran, R.Jayashree and A.Daniel Antony",
     year: "2025",
     title:
@@ -420,7 +422,7 @@ export const allInternationalJournals = [
     tags: ["Biocompatibility", "Bio-Composites", "Kneecap"],
   },
   {
-    id: 11,
+    id: 12,
     authors: "R.Jayashree, R.Surendran, S.Vijay and T.Sekar",
     year: "2025",
     title: "Investigation on the performance of IoT based Electrochemical Discharge Machining",
@@ -428,7 +430,7 @@ export const allInternationalJournals = [
     tags: ["IoT", "ECDM", "Smart Manufacturing"],
   },
   {
-    id: 12,
+    id: 13,
     authors: "R.Jayashree, S.Thilothama, T.Sekar and R.Surendran",
     year: "2025",
     title:
@@ -437,7 +439,7 @@ export const allInternationalJournals = [
     tags: ["Additive Manufacturing", "CNC", "Design"],
   },
   {
-    id: 13,
+    id: 14,
     authors: "R.Surendran, G.P.Beslin Bebish, T.Sekar, R. Jayashree and N.Nandakumar",
     year: "2025",
     title: "Prioritizing barriers in Thermal Power Plant using Fuzzy Logic: A Sustainable Perspective",
@@ -445,7 +447,7 @@ export const allInternationalJournals = [
     tags: ["Fuzzy Logic", "Thermal Power", "Optimization"],
   },
   {
-    id: 14,
+    id: 15,
     authors: "N.Nandakumar, S.Sargunam, T.Sekar, R.Surendran and R.Jayashree",
     year: "2025",
     title:
@@ -454,7 +456,7 @@ export const allInternationalJournals = [
     tags: ["3D Printing", "PLA", "Composites"],
   },
   {
-    id: 15,
+    id: 16,
     authors:
       "Elango Natarajan, Sekar Tamilperuvalathan, Saravanakumar Nesappan, Anto Dilip Albert Selvaraj and Santhosh Mozhuguan Sekar",
     year: "2024",
@@ -465,7 +467,7 @@ export const allInternationalJournals = [
     tags: ["Composites", "PLA-HDPE", "Materials"],
   },
   {
-    id: 16,
+    id: 17,
     authors: "Vijay Manokaran, Sekar Tamilperuvalathan, Prasanth Ponnusamy and Elango Natarajan",
     year: "2024",
     title: "Exploring Nitrogen Gas-Assisted ECDµM of Glass by Modified Blackwidow Optimization",
@@ -474,7 +476,7 @@ export const allInternationalJournals = [
     tags: ["ECDM", "Micro-Machining", "Optimization"],
   },
   {
-    id: 17,
+    id: 18,
     authors: "Panneerselvam Natarajan, Sekar Tamilperuvalathan, Vijayakumar Murugesan and Kumaresan Govindasamy",
     year: "2024",
     title:
@@ -484,7 +486,7 @@ export const allInternationalJournals = [
     tags: ["Friction Stir Welding", "MMC", "Welding"],
   },
   {
-    id: 18,
+    id: 19,
     authors: "G K Barath, T Sekar, N Nandhakumar, S Periyasamy and Daniel Antony Arokiyasamy",
     year: "2024",
     title: "Mechanical Testing of 3D-Printed PLA specimens with different infill patterns for healthcare applications",
@@ -492,7 +494,7 @@ export const allInternationalJournals = [
     tags: ["3D Printing", "Infill Patterns", "Healthcare"],
   },
   {
-    id: 19,
+    id: 20,
     authors: "Adithyaa A, Dr. T. Sekar and Daniel Antony A",
     year: "2024",
     title: "Investigation of material characteristics of Hybrid Biopolymers for Ankle Knee Replacement",
@@ -500,7 +502,7 @@ export const allInternationalJournals = [
     tags: ["Biopolymers", "Orthopedic", "Biomedical"],
   },
   {
-    id: 20,
+    id: 21,
     authors: "Ashwin Kumar S, Surendran R and Dr T Sekar",
     year: "2024",
     title:
@@ -509,7 +511,7 @@ export const allInternationalJournals = [
     tags: ["Laser Powder Bed", "Additive Manufacturing", "RSM"],
   },
   {
-    id: 21,
+    id: 22,
     authors: "Nathish Sanjay B N, Sekar T, Daniel Antony Arokiyasamy",
     year: "2024",
     title: "Structural failure analysis of the high-speed shaft coupling arm in Wind turbine",
@@ -517,7 +519,7 @@ export const allInternationalJournals = [
     tags: ["Failure Analysis", "Wind Turbine", "Structural"],
   },
   {
-    id: 22,
+    id: 23,
     authors: "Rahul S R, Sekar T, Daniel Antony Arokiyasamy",
     year: "2024",
     title: "Investigations on the Design of Bio-Degradable Cardiovascular Stent in Healthcare Applications",
@@ -525,7 +527,7 @@ export const allInternationalJournals = [
     tags: ["Cardiovascular Stents", "Biodegradable", "Healthcare"],
   },
   {
-    id: 23,
+    id: 24,
     authors: "Rahul S R, Sekar T, Daniel Antony Arokiyasamy",
     year: "2024",
     title: "Bio-Degradable Polymeric Stents : A focussed Review on Materials and Clinical Studies",
@@ -533,7 +535,7 @@ export const allInternationalJournals = [
     tags: ["Stents", "Polymeric", "Review"],
   },
   {
-    id: 24,
+    id: 25,
     authors: "M.Vijay and Sekar Tamilperuvalathan",
     year: "2023",
     title:
@@ -543,7 +545,7 @@ export const allInternationalJournals = [
     tags: ["ECDM", "Neural Networks", "Optimization"],
   },
   {
-    id: 25,
+    id: 26,
     authors: "Sekar Tamilperuvalathan, E. Natarajan, C. K. Ang, L. W. Hong and P. Rajendran",
     year: "2023",
     title: "Modeling of Rotary Tool Adapted Electrochemical Machining of AISI 202",
@@ -552,7 +554,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Rotary Tool", "IEEE"],
   },
   {
-    id: 26,
+    id: 27,
     authors: "P Ponnusamy, Sekar Tamilperuvalathan",
     year: "2023",
     title:
@@ -562,7 +564,7 @@ export const allInternationalJournals = [
     tags: ["MQL", "Machining", "Neural Networks"],
   },
   {
-    id: 27,
+    id: 28,
     authors: "Rahul S R, Sekar T, Daniel Antony Arokiyasamy",
     year: "2023",
     title: "Design and Analysis of Bio-Degradable Cardiovascular stent in healthcare Applications",
@@ -570,7 +572,7 @@ export const allInternationalJournals = [
     tags: ["Stents", "Biomedical", "Design"],
   },
   {
-    id: 28,
+    id: 29,
     authors: "Rahul S R, Sekar T, Nandakumar N and Periyasamy S",
     year: "2023",
     title: "Design and Analysis of Cardia Stent",
@@ -578,7 +580,7 @@ export const allInternationalJournals = [
     tags: ["Cardia Stent", "Healthcare", "Analysis"],
   },
   {
-    id: 29,
+    id: 30,
     authors: "V Vinoth, Sekar Tamilperuvalathan and M Kumaran",
     year: "2023",
     title:
@@ -588,7 +590,7 @@ export const allInternationalJournals = [
     tags: ["DED", "Additive Manufacturing", "SS 316L"],
   },
   {
-    id: 30,
+    id: 31,
     authors:
       "Sekar Tamilperuvalathan, Haritha Kaliyaperumal Rabindranathan, Rajeswari Balakrishnan, Prabakaran Jayaraman, Surendran Ramakrishnan",
     year: "2023",
@@ -597,7 +599,7 @@ export const allInternationalJournals = [
     tags: ["3D Printing", "Dental Medicine", "Review"],
   },
   {
-    id: 31,
+    id: 32,
     authors:
       "Sakthi Kumar Arumugam, Sekar Tamilperuvalathan, Daniel Antony Arokiyasamy, Gnanaprakash Kanagaraj and Surendran Ramakrishnan",
     year: "2023",
@@ -606,7 +608,7 @@ export const allInternationalJournals = [
     tags: ["ECDM", "HSS Cutter", "Machining"],
   },
   {
-    id: 32,
+    id: 33,
     authors:
       "Gnanaprakash Kanagaraj, Sekar Tamilperuvalathan, Daniel Antony Arokiyasamy, Sakthi Kumar Arumugam and Surendran Ramakrishnan",
     year: "2023",
@@ -615,7 +617,7 @@ export const allInternationalJournals = [
     tags: ["Polyurethane", "Bio-Polyols", "Materials"],
   },
   {
-    id: 33,
+    id: 34,
     authors: "V.Priyadharshan, R.Surendran, Dr.T.Sekar, and D.Ajith kumar",
     year: "2023",
     title: "Experimental Investigation on Cutting Force Analysis in LM6 Aluminium Nano-Composite Material",
@@ -623,7 +625,7 @@ export const allInternationalJournals = [
     tags: ["Cutting Force", "Nano-Composite", "Machining"],
   },
   {
-    id: 34,
+    id: 35,
     authors: "D. Ajith kumar, Dr. B. Rajeswari, Dr.T.Sekar, R.Surendran, V.Priyadarshan and A.Sakthikumar",
     year: "2023",
     title: "Preparation of 3D Printing Filament from Face Mask Waste",
@@ -631,7 +633,7 @@ export const allInternationalJournals = [
     tags: ["3D Printing", "Recycling", "Sustainability"],
   },
   {
-    id: 35,
+    id: 36,
     authors:
       "Sekar Tamilperuvalathan, Haritha Kaliyaperumal Rabindranathan, Rajeswari Balakrishnan, Prabakaran Jayaraman, Surendran Ramakrishnan",
     year: "2023",
@@ -640,7 +642,7 @@ export const allInternationalJournals = [
     tags: ["3D Printing", "Dental", "Biomedical"],
   },
   {
-    id: 36,
+    id: 37,
     authors: "Vijayakumar Kanniyappan and Sekar Tamilperuvalathan",
     year: "2022",
     title:
@@ -650,7 +652,7 @@ export const allInternationalJournals = [
     tags: ["ECMM", "Nano-Electrolytes", "DNN"],
   },
   {
-    id: 37,
+    id: 38,
     authors: "M.Veluchamy, R.Surendran and T.Sekar",
     year: "2022",
     title: "Experimental Investigation on Testing of Al 7085/Alumina Nano Composites by using Stir Casting Method",
@@ -658,7 +660,7 @@ export const allInternationalJournals = [
     tags: ["Stir Casting", "Al 7085", "Nano Composites"],
   },
   {
-    id: 38,
+    id: 39,
     authors: "T.Arunkumar, B.Rajeswari and T.Sekar",
     year: "2022",
     title: "Study on Gas Metal Arc Welding in S235 Steel",
@@ -666,7 +668,7 @@ export const allInternationalJournals = [
     tags: ["GMAW", "Welding", "S235 Steel"],
   },
   {
-    id: 39,
+    id: 40,
     authors: "P.Kumaresanan, S.Periyasamy, T.Sekar and N.Nandakumar",
     year: "2022",
     title: "Experimental Investigation of PVC Composite Membrane for Polymer Electrolyte Membrane Fuel Cell",
@@ -675,7 +677,7 @@ export const allInternationalJournals = [
     tags: ["Fuel Cell", "PEM", "Membrane"],
   },
   {
-    id: 40,
+    id: 41,
     authors: "V.R.R.Dilibban, N.Nandakumar and T.Sekar",
     year: "2022",
     title: "Experimental Analysis of Orthopedic Staple Pin made by Nickel Titanium Alloy",
@@ -683,7 +685,7 @@ export const allInternationalJournals = [
     tags: ["NiTi", "Orthopedic", "Biomaterials"],
   },
   {
-    id: 41,
+    id: 42,
     authors: "B.Vishal Easwaran, T.Sekar, N.Nandakumar and B.Rajeswari",
     year: "2022",
     title: "Development of Fourth Link and its impact on FDM 3D Printer",
@@ -692,7 +694,7 @@ export const allInternationalJournals = [
     tags: ["FDM", "3D Printing", "Machine Design"],
   },
   {
-    id: 42,
+    id: 43,
     authors: "N.Elango, V.Kaviyarasan, Wei Hong Lim, S.Ramesh, T.Sekar and V.H.Mok",
     year: "2022",
     title: "Gorilla Troops Optimizer Combined with ANFIS for Wire Cut EDM of Aluminum Alloy",
@@ -701,7 +703,7 @@ export const allInternationalJournals = [
     tags: ["WEDM", "Optimization", "ANFIS"],
   },
   {
-    id: 43,
+    id: 44,
     authors: "A.R.Udhaya, T.Sekar, N.Nandakumar and R.Surendran",
     year: "2022",
     title: "Experimental Investigation on Mechanical Behavior of Bio-Composite Material",
@@ -710,7 +712,7 @@ export const allInternationalJournals = [
     tags: ["Bio-Composites", "Mechanical Properties", "Materials"],
   },
   {
-    id: 44,
+    id: 45,
     authors: "V.R.R.Dilibban, N.Nandakumar and T.Sekar",
     year: "2022",
     title: "Analysis of Thermal Energy storing and self-cleaning coating for Solar panel by using Titanium Dioxide Melamine Formaldehyde",
@@ -718,7 +720,7 @@ export const allInternationalJournals = [
     tags: ["Solar Panel", "TiO2 Coating", "Energy"],
   },
   {
-    id: 45,
+    id: 46,
     authors: "P. Kumaravel, P. Suresh, K. Venkatesh Raja, T.Sekar",
     year: "2022",
     title: "Improvement of Micro-Electrochemical Discharge Machining of Austenitic Stainless Steel 316L using NaOH electrolyte containing N2",
@@ -727,7 +729,7 @@ export const allInternationalJournals = [
     tags: ["Micro-ECDM", "SS 316L", "Electrolytes"],
   },
   {
-    id: 46,
+    id: 47,
     authors: "Vinodhkumar R, Sekar T and Nandakumar N",
     year: "2022",
     title: "Design and Analysis of an Extruder for Bio-Composite Filament Fabrication",
@@ -736,7 +738,7 @@ export const allInternationalJournals = [
     tags: ["Extruder", "Filament", "Bio-Composites"],
   },
   {
-    id: 47,
+    id: 48,
     authors: "M.Vijay and Sekar T",
     year: "2022",
     title: "Prediction on enhanced Electrochemical Discharge Machining behaviors of Zirconia-Silicon Nitride using Hybrid DNN based 'Spotted Hyena Optimization'",
@@ -745,7 +747,7 @@ export const allInternationalJournals = [
     tags: ["ECDM", "Ceramics", "Spotted Hyena"],
   },
   {
-    id: 48,
+    id: 49,
     authors: "M.Vijay, Sekar T, Elango Natarajan and Prasanth Ponnusamy",
     year: "2021",
     title: "Experimental Investigation on Electrochemical Discharge Machining of Zirconia",
@@ -754,7 +756,7 @@ export const allInternationalJournals = [
     tags: ["ECDM", "Zirconia", "Ceramics"],
   },
   {
-    id: 49,
+    id: 50,
     authors: "K.Vijayakumar, Sekar T, and M.Vijay",
     year: "2021",
     title: "Experimental Studies on Material Removal Rate of Die Steel in Electrochemical Micromachining Process Using Taguchi Method",
@@ -763,7 +765,7 @@ export const allInternationalJournals = [
     tags: ["ECMM", "MRR", "Taguchi"],
   },
   {
-    id: 50,
+    id: 51,
     authors: "P.Prasanth, Sekar T and Sivapragash M",
     year: "2021",
     title: "Investigations on the effects of Nitrogen Gas in CNC Machining of SS304 using Taguchi and Firefly algorithm",
@@ -772,7 +774,7 @@ export const allInternationalJournals = [
     tags: ["CNC", "Nitrogen Gas", "Firefly Algorithm"],
   },
   {
-    id: 51,
+    id: 52,
     authors: "Vignesh S, Surendran R, Sekar T and Rajeswari B",
     year: "2021",
     title: "Ballistic Performance Simulation of Graphene–Dyneema Multi-layered Armor",
@@ -780,7 +782,7 @@ export const allInternationalJournals = [
     tags: ["Ballistics", "Graphene", "Armor Simulation"],
   },
   {
-    id: 52,
+    id: 53,
     authors: "B.Hemalatha, B.Rajeswari, Sekar T and V.Rajasekar",
     year: "2021",
     title: "Experimental Studies on Biomachining of Copper and its behavioral Characteristics",
@@ -789,7 +791,7 @@ export const allInternationalJournals = [
     tags: ["Biomachining", "Copper", "Green Manufacturing"],
   },
   {
-    id: 53,
+    id: 54,
     authors: "Sekar T, B.Hemalatha, B.Rajeswari, R.Surendran and M.Vijay",
     year: "2021",
     title: "Investigation on the effects of Aspergillus niger in sustainable bio-micromachining of Copper",
@@ -798,7 +800,7 @@ export const allInternationalJournals = [
     tags: ["Bio-Micromachining", "Aspergillus Niger", "Copper"],
   },
   {
-    id: 54,
+    id: 55,
     authors: "Kannan P R, Senthilkumar P, Suresh P and Sekar T",
     year: "2020",
     title: "Fuzzy Sliding Mode Control for Hydraulic activated active suspension using Half Car Model",
@@ -806,7 +808,7 @@ export const allInternationalJournals = [
     tags: ["Active Suspension", "Fuzzy Sliding Mode", "Hydraulics"],
   },
   {
-    id: 55,
+    id: 56,
     authors: "Mohansendrayan A, Surendran R, Sekar T and Nandakumar N",
     year: "2020",
     title: "Investigation on Mechanical Properties of LM13 Aluminium Hybrid Composites",
@@ -814,7 +816,7 @@ export const allInternationalJournals = [
     tags: ["LM13 Aluminium", "Hybrid Composites", "Mechanical"],
   },
   {
-    id: 56,
+    id: 57,
     authors: "Senthilraja, K, Kannan P R, Suresh P and Sekar T",
     year: "2020",
     title: "Corrosion and Fatigue study on FSW and GTAW welded joints of AA7075-T6",
@@ -822,7 +824,7 @@ export const allInternationalJournals = [
     tags: ["FSW", "GTAW", "AA7075-T6"],
   },
   {
-    id: 57,
+    id: 58,
     authors: "Vignesh S, Surendran R, Sekar T and Rajeswari B",
     year: "2020",
     title: "Ballistic impact analysis of Graphene Nano-sheets reinforced Kevlar-29",
@@ -830,7 +832,7 @@ export const allInternationalJournals = [
     tags: ["Ballistics", "Kevlar-29", "Graphene"],
   },
   {
-    id: 58,
+    id: 59,
     authors: "Muthukumaran N, Devaraj P, Arunkumar P and Sekar T",
     year: "2020",
     title: "Re-Use of abandoned Sanitary ware waste as Abrasive particles for Abrasive Jet Machine",
@@ -838,7 +840,7 @@ export const allInternationalJournals = [
     tags: ["Abrasive Jet", "Waste Recycling", "Machining"],
   },
   {
-    id: 59,
+    id: 60,
     authors: "Muthukumaran N, Prasanna Raj Yadav, Saravanan C G S and Sekar T",
     year: "2020",
     title: "Synthesis of cracked Mahua oil using coal ash catalyst for Diesel Engine application",
@@ -846,7 +848,7 @@ export const allInternationalJournals = [
     tags: ["Biofuel", "Mahua Oil", "Diesel Engine"],
   },
   {
-    id: 60,
+    id: 61,
     authors: "Sivakumar A, Sathiyamoorthy V, Sekar T and Seenivasan M",
     year: "2019",
     title: "Investigations on the effects of Copper Nano Fluid in Electrochemical Machining of HCHCr Die Steel",
@@ -854,7 +856,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Nano Fluid", "Die Steel"],
   },
   {
-    id: 61,
+    id: 62,
     authors: "Sivakumar A, Sekar T and Sathiyamoorthy V",
     year: "2019",
     title: "Optimization of Material Removal Rate in Electrochemical Machining of AISI 202 with Mixed Electrolytes",
@@ -862,7 +864,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "AISI 202", "MRR"],
   },
   {
-    id: 62,
+    id: 63,
     authors: "Sekar T, Vijay M, Rajamurugan T V and Umanath K",
     year: "2018",
     title: "Experimental Investigation on the impact of Silver Nitrate solution mixed electrolyte in the ECM of AISI 202",
@@ -870,7 +872,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "AgNO3 Electrolyte", "AISI 202"],
   },
   {
-    id: 63,
+    id: 64,
     authors: "Sivakumar A, Arularasu M and Sekar T",
     year: "2018",
     title: "Electrochemical Machining of AISI 202 using AgNO3 mixed Electrolyte and its Optimization",
@@ -878,7 +880,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "AgNO3", "Optimization"],
   },
   {
-    id: 64,
+    id: 65,
     authors: "Sekar T, Vijay M, Arvindhkumar S, Boopathi S and Pavitra K",
     year: "2018",
     title: "Experimental Investigation and Optimization on Hybrid Metal Matrix Composites through Electrochemical Micro Machining using Taguchi Method",
@@ -886,7 +888,7 @@ export const allInternationalJournals = [
     tags: ["ECMM", "MMC", "Taguchi"],
   },
   {
-    id: 65,
+    id: 66,
     authors: "Sekar T, Arularasu M and Sathiyamoorthy V",
     year: "2016",
     title: "Investigations on the effects of Nano-fluid in ECM of Die Steel",
@@ -894,7 +896,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Nano-Fluid", "Die Steel"],
   },
   {
-    id: 66,
+    id: 67,
     authors: "Sathiyamoorthy V and Sekar T",
     year: "2016",
     title: "Optimization of processing parameters in ECM of AISI 202 using Multi Objective Genetic Algorithm",
@@ -902,7 +904,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "MOGA", "Genetic Algorithm"],
   },
   {
-    id: 67,
+    id: 68,
     authors: "Sathiyamoorthy V, Sekar T and Subramanian M",
     year: "2016",
     title: "Experimental investigation on the effects of Nano-fluid in ECM of High Carbon High Chromium Die Tool Steel",
@@ -910,7 +912,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Nano-Fluid", "HCHCr Steel"],
   },
   {
-    id: 68,
+    id: 69,
     authors: "Kannan P R, Palaniswamy E, Sekar T, Suresh P and Senthilkumar C",
     year: "2016",
     title: "Nano-Powder mixed ECM of Inconel 718 using ANFIS",
@@ -918,7 +920,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Inconel 718", "ANFIS"],
   },
   {
-    id: 69,
+    id: 70,
     authors: "Kannan P R, Palanisamy E, Sekar T and Suresh P",
     year: "2016",
     title: "Prediction of Surface roughness model for Nano Copper suspended Electrochemically machined Inconel 718 using ANFIS",
@@ -926,7 +928,7 @@ export const allInternationalJournals = [
     tags: ["Surface Roughness", "Inconel 718", "ANFIS"],
   },
   {
-    id: 70,
+    id: 71,
     authors: "Kumar A Siva, Arularasu M, Sekar T and Suresh P",
     year: "2016",
     title: "Investigation on the effects of Silver Nitrate solution mixed electrolyte in Electrochemical Machining of AISI 202",
@@ -934,7 +936,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "AgNO3", "AISI 202"],
   },
   {
-    id: 71,
+    id: 72,
     authors: "Suresh P, Venkatesan R, Sekar T and Kannan P R",
     year: "2016",
     title: "Investigation and Multi Objective Optimization of MRR and TWR using Taguchi Technique in Micro Electro Discharge Machining",
@@ -942,7 +944,7 @@ export const allInternationalJournals = [
     tags: ["Micro-EDM", "MRR", "TWR"],
   },
   {
-    id: 72,
+    id: 73,
     authors: "Sathiyamoorthy V, Sekar T and Elango N",
     year: "2015",
     title: "Optimization of processing parameters in ECM of die tool steel using Nano fluid by Multi Objective Genetic Algorithm",
@@ -950,7 +952,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Nano Fluid", "MOGA"],
   },
   {
-    id: 73,
+    id: 74,
     authors: "Sathiyamoorthy V, Sekar T and Subramanian M",
     year: "2015",
     title: "Optimization of Copper Nano-Fluid Used ECM By Firefly Algorithm",
@@ -958,7 +960,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Firefly Algorithm", "Nano-Fluid"],
   },
   {
-    id: 74,
+    id: 75,
     authors: "Suresh P, Venkatesan R, Sekar T",
     year: "2015",
     title: "Development of low cost 3 axes Table top Micro Electro Discharge Machining (MicroEDM)",
@@ -966,7 +968,7 @@ export const allInternationalJournals = [
     tags: ["MicroEDM", "Machine Tool", "Instrumentation"],
   },
   {
-    id: 75,
+    id: 76,
     authors: "Sathiyamoorthy V, Sekar T and Elango N",
     year: "2015",
     title: "Optimization of processing parameters in ECM of Automotive die tool steel using MOGA",
@@ -974,7 +976,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Automotive Steel", "MOGA"],
   },
   {
-    id: 76,
+    id: 77,
     authors: "Sathiyamoorthy V, Sekar T, Suresh P, Vijayan R and Elango N",
     year: "2015",
     title: "Optimization of processing parameters in Electrochemical Machining of AISI 202 using Response Surface Methodology",
@@ -982,7 +984,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "RSM", "AISI 202"],
   },
   {
-    id: 77,
+    id: 78,
     authors: "Suresh P, Venkatesan R, Sekar T, Elango N",
     year: "2014",
     title: "Optimization of intervening variables in micro-EDM of SS 316L using Genetic Algorithm and Response Surface Methodology",
@@ -990,7 +992,7 @@ export const allInternationalJournals = [
     tags: ["Micro-EDM", "SS 316L", "GA-RSM"],
   },
   {
-    id: 78,
+    id: 79,
     authors: "Suresh P, Venkatesan R, Sekar T and Sathiyamoorthy V",
     year: "2014",
     title: "Study of micro-EDM parameter of Stainless Steel 316L using Genetic algorithm",
@@ -998,7 +1000,7 @@ export const allInternationalJournals = [
     tags: ["Micro-EDM", "Genetic Algorithm", "SS 316L"],
   },
   {
-    id: 79,
+    id: 80,
     authors: "Loganathan V, Vijayan R and Sekar T",
     year: "2014",
     title: "Mathematical modeling and Comparison on the effect of various alternative fuels on the performance of gas turbine combustion process",
@@ -1006,7 +1008,7 @@ export const allInternationalJournals = [
     tags: ["Gas Turbine", "Alternative Fuels", "Combustion"],
   },
   {
-    id: 80,
+    id: 81,
     authors: "Pasumpon M, Nallappan R, Vijayan R and Sekar T",
     year: "2014",
     title: "Design and flow analysis of electromagnetic plasma arc propulsion system",
@@ -1014,7 +1016,7 @@ export const allInternationalJournals = [
     tags: ["Plasma Propulsion", "Electromagnetic", "Flow Analysis"],
   },
   {
-    id: 81,
+    id: 82,
     authors: "Srikanth M, Sekar T and Vijayan R",
     year: "2014",
     title: "Performance and emission characteristics of a CI engine fuelled with Diesel 2-Ethoxy Ethyl Acetate Blends",
@@ -1022,7 +1024,7 @@ export const allInternationalJournals = [
     tags: ["CI Engine", "Diesel Blends", "Emissions"],
   },
   {
-    id: 82,
+    id: 83,
     authors: "Sathiyamoorthy V and Sekar T",
     year: "2014",
     title: "Experimental studies on improving the performance of Electrochemical machining of High Carbon High Chromium Die Steel using jet patterns",
@@ -1030,7 +1032,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Jet Patterns", "Die Steel"],
   },
   {
-    id: 83,
+    id: 84,
     authors: "Sathiyamoorthy V, Sekar T and Elango N",
     year: "2013",
     title: "Experimental investigation on the effects of copper Nano particles suspended NaNO3 electrolyte in ECM",
@@ -1038,7 +1040,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Nano Particles", "NaNO3 Electrolyte"],
   },
   {
-    id: 84,
+    id: 85,
     authors: "Yuvanarasimman P, Sekar T, Malayalamurthi R, Balusamy T and Raja M",
     year: "2010",
     title: "Computer aided design and analysis of air suspension system for LCV",
@@ -1046,7 +1048,7 @@ export const allInternationalJournals = [
     tags: ["CAD/CAE", "Suspension", "LCV"],
   },
   {
-    id: 85,
+    id: 86,
     authors: "Sekar T and Marappan R",
     year: "2008",
     title: "Experimental investigations into the influencing parameters of Electrochemical machining of AISI 202",
@@ -1054,7 +1056,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "AISI 202", "Parameters"],
   },
   {
-    id: 86,
+    id: 87,
     authors: "Sekar T and Marappan R",
     year: "2008",
     title: "Investigating the Material removal rate and surface roughness in Electrochemical machining of High Carbon High Chromium Die Steel",
@@ -1062,7 +1064,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "MRR", "Surface Roughness"],
   },
   {
-    id: 87,
+    id: 88,
     authors: "Sekar T and Marappan R",
     year: "2008",
     title: "Experimental investigations into Electrochemical machining of High Carbon High Chromium Die Steel",
@@ -1070,7 +1072,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Die Steel", "Machining"],
   },
   {
-    id: 88,
+    id: 89,
     authors: "Sekar T and Marappan R",
     year: "2008",
     title: "Improving Material removal rate of Electrochemical machining by using rotating tool",
@@ -1078,7 +1080,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "Rotating Tool", "MRR"],
   },
   {
-    id: 89,
+    id: 90,
     authors: "Sekar T and Marappan R",
     year: "2008",
     title: "Optimum selection of machining parameters in Electrochemical machining using Response Surface Methodology",
@@ -1086,7 +1088,7 @@ export const allInternationalJournals = [
     tags: ["ECM", "RSM", "Optimization"],
   },
   {
-    id: 90,
+    id: 91,
     authors: "Sekar T and R Marappan",
     year: "2007",
     title: "Experimental Studies on Effect of Tool Geometry Over Metal Removal Rate in ECM Process",
@@ -1101,13 +1103,13 @@ export const publicationCategories = [
   {
     key: "all-journals",
     label: "All International Journals",
-    count: 90,
-    note: "Comprehensive record of 90 peer-reviewed journal articles indexed in Elsevier, Springer Nature, Wiley, Taylor & Francis, Hindawi, Cell Press, and UGC CARE Group-I/II.",
+    count: 91,
+    note: "Comprehensive record of 91 peer-reviewed journal articles indexed in Elsevier, Springer Nature, Wiley, Taylor & Francis, Hindawi, Cell Press, and UGC CARE Group-I/II.",
   },
   {
     key: "featured",
     label: "Flagship Publications (2024–2026)",
-    count: 6,
+    count: 7,
     note: "Recent high-impact publications focusing on bio-composites for wound healing, cardiovascular stents, nitrogen gas-assisted ECDM, and sustainable biomedical polymers.",
   },
   {
@@ -1150,7 +1152,7 @@ export const achievements = [
   {
     id: 1,
     title: "Officer-in-charge of Examinations, GCT Coimbatore",
-    body: "Appointed Officer-in-charge of Examinations at Government College of Technology, Coimbatore (April 2024 onwards), overseeing end-semester autonomous evaluation, valuation boards, and exam administration.",
+    body: "Served as Officer-in-charge of Examinations at Government College of Technology, Coimbatore (April 2024 to 06.10.2026), overseeing end-semester autonomous evaluation, valuation boards, and exam administration.",
     category: "Institutional Governance",
   },
   {
@@ -1180,7 +1182,7 @@ export const achievements = [
   {
     id: 6,
     title: "Anna University Nominee for Board of Studies (BoS)",
-    body: "Anna University Nominee on Boards of Studies across multiple institutions: Chenduran College of Engineering (Pudukottai), Al-Ameen Engineering College (Erode), Sri Krishna College of Technology (Coimbatore), The Kaveri Engineering College (Mecheri), and Ganesh College of Engineering (Salem), as well as KSR College of Technology (2014–2016).",
+    body: "Anna University Nominee on Boards of Studies across multiple institutions: Chenduran College of Engineering (Pudukottai), Al-Ameen Engineering College (Erode), Sri Krishna College of Technology (Coimbatore), The Kaveri Engineering College (Mecheri), and Ganesh College of Engineering (Salem).",
     category: "Academic Governance",
   },
   {
@@ -1198,7 +1200,7 @@ export const achievements = [
   {
     id: 9,
     title: "Government of Tamil Nadu Nominee for IQAC & Governing Bodies",
-    body: "Appointed Govt. of Tamil Nadu Nominee for IQAC of Coimbatore Institute of Technology (CIT), CSI College of Engineering (The Nilgiris), Asian College of Engineering & Technology, and Sri Narayanaguru & Sankara Polytechnic Colleges, Coimbatore.",
+    body: "Govt. of Tamil Nadu Nominee for IQAC of Coimbatore Institute of Technology (CIT), and Govt. of Tamil Nadu Nominee for CSI College of Engineering (The Nilgiris), Asian College of Engineering & Technology, and Sri Narayanaguru & Sankara Polytechnic Colleges, Coimbatore.",
     category: "Quality Assurance",
   },
   {
@@ -1284,7 +1286,7 @@ export const memberships = [
   {
     code: "FIE",
     title: "Fellow (FIE)",
-    body: "The Institution of Engineers (India) — IEI",
+    body: "Indian Institution of Engineers",
   },
   {
     code: "MISTE",
@@ -1299,7 +1301,7 @@ export const memberships = [
   {
     code: "MMRSI",
     title: "Life Member (MMRSI)",
-    body: "Materials Research Society of India",
+    body: "Material Research Society of India",
   },
   {
     code: "IMechE",

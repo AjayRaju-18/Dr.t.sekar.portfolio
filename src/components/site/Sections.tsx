@@ -123,7 +123,7 @@ export function About() {
         index="01"
         eyebrow="Profile & Background"
         title="Engineer, educator, researcher & innovator."
-        description="27 Years and 9 Months of dedicated service under Tamil Nadu Educational Services (Government of Tamil Nadu) since 2001."
+        description="27 Years and 11 Months of dedicated service under Tamil Nadu Educational Services (Government of Tamil Nadu) since 2001."
       />
       <div className="grid gap-6 sm:gap-8 lg:grid-cols-[1.3fr_0.7fr]">
         <Reveal className="space-y-4 text-sm sm:text-[0.9rem] leading-relaxed text-muted-foreground">
@@ -137,11 +137,12 @@ export function About() {
             research, institutional governance, and industrial manufacturing.
           </p>
           <p>
-            Currently, he serves as the{" "}
-            <strong className="text-foreground">Officer-in-charge of Examinations</strong> and{" "}
-            <strong className="text-foreground">IPR Cell Coordinator</strong> at GCT, steering
-            autonomous evaluations and fostering high-value intellectual property creation resulting in
-            10 granted Indian patents.
+            He serves as the{" "}
+            <strong className="text-foreground">IPR Cell Coordinator</strong> at GCT, fostering
+            high-value intellectual property creation resulting in 10 granted Indian design patents,
+            and previously served as{" "}
+            <strong className="text-foreground">Officer-in-charge of Examinations</strong> (April 2024
+            to 06.10.2026).
           </p>
           <p>
             His pioneering research focuses on{" "}
@@ -328,7 +329,7 @@ export function Research() {
         index="04"
         eyebrow="Scholarly Research"
         title="Publications & research repository."
-        description="90 International Journals · 2 National Journals · 4 Authored Books · 2 Book Chapters · 140 Conference Presentations"
+        description="91 International Journals · 2 National Journals · 4 Authored Books · 2 Book Chapters · 140 Conference Presentations"
       />
 
       {/* Flagship Highlights */}
@@ -621,7 +622,7 @@ export function Patents() {
         index="05"
         eyebrow="Patents & Funded R&D"
         title="Intellectual property & innovations."
-        description="10 Design Patents granted by the Indian Patent Office, 2 Utility Patents filed/published, and funded R&D in electrochemical discharge machining."
+        description="10 Design Patents granted by the Indian Patent Office, 6 Design Certificates filed, 1 Utility Patent filed, and funded R&D in electrochemical discharge machining."
       />
 
       <div className="grid gap-5 sm:gap-6 lg:grid-cols-[0.9fr_1.1fr]">
@@ -655,7 +656,7 @@ export function Patents() {
 
           {/* Utility Patents */}
           <div className="tech-card p-4 sm:p-5 space-y-3">
-            <p className="eyebrow">Utility Patents (Filed / Published)</p>
+            <p className="eyebrow">Utility Patent (Filed)</p>
             <div className="space-y-3">
               {patents.utilityPatents.map((up) => (
                 <div key={up.title} className="border-t border-border/60 pt-3 first:border-0 first:pt-0">
@@ -666,7 +667,6 @@ export function Patents() {
                   </p>
                   <p className="text-[0.65rem] text-muted-foreground/80">
                     Filed: {up.filingDate}
-                    {up.applicationNo ? ` · App: ${up.applicationNo}` : ""}
                   </p>
                 </div>
               ))}
