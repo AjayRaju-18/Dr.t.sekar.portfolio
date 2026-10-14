@@ -220,8 +220,8 @@ export function Hero() {
                 <img
                   src={profileImg}
                   alt={`Portrait of ${profile.name}`}
-                  width={768}
-                  height={960}
+                  width={344}
+                  height={412}
                   className="w-full object-cover rounded-sm"
                   loading="eager"
                   decoding="async"

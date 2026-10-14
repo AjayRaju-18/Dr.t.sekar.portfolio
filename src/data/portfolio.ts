@@ -33,8 +33,12 @@ export const stats = [
   { value: 91, suffix: "", label: "International Journals" },
   { value: 100, suffix: "", label: "Intl. Conferences" },
   { value: 10, suffix: "", label: "Design Patents Granted" },
+  { value: 6, suffix: "", label: "Design Patents Registered" },
+  { value: 2, suffix: "", label: "Utility Patents (Under Examination)" },
+  { value: 6, suffix: "", label: "PhD Guided" },
+  { value: 5, suffix: "", label: "PhD Scholars Guiding" },
   { value: 75, suffix: "", label: "UG / PG Projects Guided" },
-  { value: 6, suffix: "", label: "PhD Scholars (5 Guiding)" },
+  { value: 4, suffix: "", label: "Books Authored" },
 ];
 
 export const summaryCounts = {
@@ -48,8 +52,8 @@ export const summaryCounts = {
   phdGuided: 6,
   phdGuiding: 5,
   designPatentsGranted: 10,
-  utilityPatentsFiled: 1,
-  designCertificatesFiled: 6,
+  designPatentsRegistered: 6,
+  utilityPatentsUnderExamination: 2,
 };
 
 export const education = [
@@ -98,6 +102,13 @@ export const education = [
 ];
 
 export const experience = [
+  {
+    role: "Senior Individual Member",
+    org: "Indian National Academy of Engineering (INAE)",
+    period: "Certification",
+    details:
+      "Recognized as a Senior Individual Member of the Indian National Academy of Engineering (INAE).",
+  },
   {
     role: "Officer-in-charge of Examinations",
     org: "Government College of Technology (GCT), Coimbatore",
@@ -219,7 +230,7 @@ export const patents = {
         "Center stand Mechanism for Two-Wheelers offering enhanced convenience and Ease of use",
       role: "T. Sekar (Applicant)",
       filingDate: "2024-12-28",
-      status: "Filed / Under Examination",
+      status: "Under Examination",
     },
   ],
 };
@@ -1158,7 +1169,7 @@ export const achievements = [
   {
     id: 2,
     title: "Coordinator, Intellectual Property Rights (IPR) Cell, GCT",
-    body: "Spearheading patent creation, design registration, and IP policy at GCT Coimbatore, facilitating 10 granted design patents and 2 utility patent applications.",
+    body: "Spearheading patent creation, design registration, and IP policy at GCT Coimbatore, facilitating 10 granted design patents, 6 registered design patents and 2 utility patents under examination.",
     category: "IPR & Innovation",
   },
   {

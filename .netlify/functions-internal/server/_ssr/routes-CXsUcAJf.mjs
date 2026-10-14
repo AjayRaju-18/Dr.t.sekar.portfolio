@@ -5,7 +5,7 @@ import { a as motion, i as useMotionValue, n as useSpring, o as AnimatePresence,
 import { C as ChevronDown, D as BookMarked, E as BookOpen, O as BadgeCheck, S as Cog, T as Building2, _ as FolderLock, a as Ruler, b as Database, c as Menu, d as Linkedin, f as Library, g as Globe, h as GraduationCap, i as Search, k as Award, l as MapPin, m as Landmark, n as Sparkles, o as Phone, p as Layers, r as Send, s as Microscope, t as X, u as Mail, v as ExternalLink, w as Check, x as Copy, y as Download } from "../_libs/lucide-react.mjs";
 import { t as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DQINqRiD.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CXsUcAJf.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var profile = {
@@ -55,14 +55,34 @@ var stats = [
 		label: "Design Patents Granted"
 	},
 	{
+		value: 6,
+		suffix: "",
+		label: "Design Patents Registered"
+	},
+	{
+		value: 2,
+		suffix: "",
+		label: "Utility Patents (Under Examination)"
+	},
+	{
+		value: 6,
+		suffix: "",
+		label: "PhD Guided"
+	},
+	{
+		value: 5,
+		suffix: "",
+		label: "PhD Scholars Guiding"
+	},
+	{
 		value: 75,
 		suffix: "",
 		label: "UG / PG Projects Guided"
 	},
 	{
-		value: 6,
+		value: 4,
 		suffix: "",
-		label: "PhD Scholars (5 Guiding)"
+		label: "Books Authored"
 	}
 ];
 var education = [
@@ -110,6 +130,12 @@ var education = [
 	}
 ];
 var experience = [
+	{
+		role: "Senior Individual Member",
+		org: "Indian National Academy of Engineering (INAE)",
+		period: "Certification",
+		details: "Recognized as a Senior Individual Member of the Indian National Academy of Engineering (INAE)."
+	},
 	{
 		role: "Officer-in-charge of Examinations",
 		org: "Government College of Technology (GCT), Coimbatore",
@@ -260,7 +286,7 @@ var patents = {
 		title: "Center stand Mechanism for Two-Wheelers offering enhanced convenience and Ease of use",
 		role: "T. Sekar (Applicant)",
 		filingDate: "2024-12-28",
-		status: "Filed / Under Examination"
+		status: "Under Examination"
 	}]
 };
 var books = [
@@ -1520,7 +1546,7 @@ var achievements = [
 	{
 		id: 2,
 		title: "Coordinator, Intellectual Property Rights (IPR) Cell, GCT",
-		body: "Spearheading patent creation, design registration, and IP policy at GCT Coimbatore, facilitating 10 granted design patents and 2 utility patent applications.",
+		body: "Spearheading patent creation, design registration, and IP policy at GCT Coimbatore, facilitating 10 granted design patents, 6 registered design patents and 2 utility patents under examination.",
 		category: "IPR & Innovation"
 	},
 	{
@@ -1891,7 +1917,7 @@ function Navbar() {
 		"aria-hidden": true
 	}, "overlay") })] });
 }
-var profile_default = "/assets/profile-wX1oKVbc.jpg";
+var profile_default = "/assets/profile-DdJ3Cdd8.jpg";
 function useHydrated() {
 	const [hydrated, setHydrated] = (0, import_react.useState)(false);
 	(0, import_react.useEffect)(() => setHydrated(true), []);
@@ -2269,8 +2295,8 @@ function Hero() {
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 											src: profile_default,
 											alt: `Portrait of ${profile.name}`,
-											width: 768,
-											height: 960,
+											width: 344,
+											height: 412,
 											className: "w-full object-cover rounded-sm",
 											loading: "eager",
 											decoding: "async"
@@ -2396,7 +2422,7 @@ function StatsBar() {
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "blueprint-grid-fine absolute inset-0 opacity-40 pointer-events-none" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "section-inner py-6 sm:py-10 lg:py-12",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				className: "grid grid-cols-2 gap-2 sm:gap-3 sm:grid-cols-3 lg:grid-cols-6",
+				className: "grid grid-cols-2 gap-2 sm:gap-3 md:grid-cols-5",
 				children: stats.map((s, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Reveal, {
 					delay: i * .06,
 					className: "tech-card group relative flex flex-col items-center justify-center p-3 sm:p-4 lg:p-5 text-center",
@@ -3007,7 +3033,7 @@ function Patents() {
 				index: "05",
 				eyebrow: "Patents & Funded R&D",
 				title: "Intellectual property & innovations.",
-				description: "10 Design Patents granted by the Indian Patent Office, 6 Design Certificates filed, 1 Utility Patent filed, and funded R&D in electrochemical discharge machining."
+				description: "10 Design Patents granted by the Indian Patent Office, 6 Design Patents registered, 2 Utility Patents under examination, and funded R&D in electrochemical discharge machining."
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "grid gap-5 sm:gap-6 lg:grid-cols-[0.9fr_1.1fr]",
@@ -3068,7 +3094,7 @@ function Patents() {
 						className: "tech-card p-4 sm:p-5 space-y-3",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "eyebrow",
-							children: "Utility Patent (Filed)"
+							children: "Utility Patents — 2 Under Examination"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "space-y-3",
 							children: patents.utilityPatents.map((up) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {

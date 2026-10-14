@@ -4,10 +4,10 @@ import { _ as lazyRouteComponent, b as Link, f as Scripts, g as Outlet, h as cre
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CxUwsORe.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-GoL47gqO.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-Dj25eUTl.css";
+var styles_default = "/assets/styles-JwnJuQI_.css";
 var Toaster$1 = ({ ...props }) => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster, {
 		className: "toaster group",
@@ -164,7 +164,7 @@ function RootComponent() {
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster$1, { position: "bottom-right" })]
 	});
 }
-var $$splitComponentImporter = () => import("./routes-DQINqRiD.mjs");
+var $$splitComponentImporter = () => import("./routes-CXsUcAJf.mjs");
 var title = "Dr. Sekar Tamilperuvalathan — Associate Professor & Head, P.G-Manufacturing Engg & Engg Design, GCT Coimbatore";
 var description = "Portfolio of Dr. Sekar Tamilperuvalathan, Associate Professor and Head, P.G-Manufacturing Engg & Engg Design at Government College of Technology, Coimbatore — 27+ years in engineering education, research and innovation.";
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({

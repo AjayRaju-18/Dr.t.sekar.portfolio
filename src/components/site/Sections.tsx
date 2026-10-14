@@ -81,7 +81,7 @@ export function StatsBar() {
     <section className="relative border-y border-border/70 bg-gradient-to-b from-steel/30 via-card/40 to-steel/30 backdrop-blur-md">
       <div className="blueprint-grid-fine absolute inset-0 opacity-40 pointer-events-none" />
       <div className="section-inner py-6 sm:py-10 lg:py-12">
-        <div className="grid grid-cols-2 gap-2 sm:gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 md:grid-cols-5">
           {stats.map((s, i) => (
             <Reveal
               key={s.label}
@@ -622,7 +622,7 @@ export function Patents() {
         index="05"
         eyebrow="Patents & Funded R&D"
         title="Intellectual property & innovations."
-        description="10 Design Patents granted by the Indian Patent Office, 6 Design Certificates filed, 1 Utility Patent filed, and funded R&D in electrochemical discharge machining."
+        description="10 Design Patents granted by the Indian Patent Office, 6 Design Patents registered, 2 Utility Patents under examination, and funded R&D in electrochemical discharge machining."
       />
 
       <div className="grid gap-5 sm:gap-6 lg:grid-cols-[0.9fr_1.1fr]">
@@ -656,7 +656,7 @@ export function Patents() {
 
           {/* Utility Patents */}
           <div className="tech-card p-4 sm:p-5 space-y-3">
-            <p className="eyebrow">Utility Patent (Filed)</p>
+            <p className="eyebrow">Utility Patents — 2 Under Examination</p>
             <div className="space-y-3">
               {patents.utilityPatents.map((up) => (
                 <div key={up.title} className="border-t border-border/60 pt-3 first:border-0 first:pt-0">
