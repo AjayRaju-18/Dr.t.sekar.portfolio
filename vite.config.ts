@@ -15,6 +15,6 @@ export default defineConfig({
   // Target Netlify by default so the Nitro SSR bundle is output to
   // .netlify/functions-internal/; use the Vercel preset when building on Vercel.
   nitro: {
-    preset: process.env.VERCEL ? "vercel" : "netlify",
+    preset: process.env["VERCEL"] ? "vercel" : "netlify",
   },
 });
