@@ -1198,8 +1198,8 @@ export const achievements = [
   },
   {
     id: 7,
-    title: "Board of Studies Member (GCT & GCE Salem)",
-    body: "Board of Studies Member at Government College of Engineering, Salem (2013–2014) and at Government College of Technology, Coimbatore (from 2018 to till date), shaping autonomous curriculum frameworks.",
+    title: "Board of Studies Member (PSG Tech, GCT & GCE Salem)",
+    body: "Board of Studies Member at PSG College of Technology, Coimbatore; Government College of Engineering, Salem (2013–2014); and Government College of Technology, Coimbatore (from 2018 to till date), shaping autonomous curriculum frameworks.",
     category: "Curriculum Design",
   },
   {
